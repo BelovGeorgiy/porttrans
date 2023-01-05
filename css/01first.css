@@ -1,0 +1,49 @@
+.first_page {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/work01.jpg), -webkit-gradient(linear, left top, left bottom, from(rgb(209, 209, 209)), to(black));
+  background-image: url(../img/work01.jpg), linear-gradient(rgb(209, 209, 209), black);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.first_page__content {
+  margin-top: 240px;
+}
+
+.first_page__header h1 {
+  font-size: 120px;
+  letter-spacing: 5px;
+  text-shadow: 8px 8px 8px black;
+}
+
+.first_page__subheader h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 30px;
+  text-shadow: 8px 8px 8px black;
+}
+
+.first_page__text {
+  max-width: 475px;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.first_page__button {
+  margin-top: 50px;
+}
+
+.first_page__button_btn {
+  width: 450px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #64a8e5;
+  border: 5px solid #315b7f;
+}
+.first_page__button_btn a {
+  font-size: 26px;
+  color: black;
+  text-shadow: 2px 2px 3px white;
+}/*# sourceMappingURL=01first.css.map */

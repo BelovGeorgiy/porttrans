@@ -1,0 +1,117 @@
+.footer {
+  margin-top: 100px;
+}
+
+.footer__firstfloor {
+  height: 120px;
+  border-top: 3px solid #64a8e5;
+}
+
+.footer__secondfloor {
+  height: 640px;
+  background-color: #64a8e5;
+}
+
+.footer__thirdfloor {
+  height: 120px;
+  background-color: #315b7f;
+}
+
+.footer__firstfloor_logo {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.footer__firstfloor_logo_pic {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 230px;
+          flex: 0 1 230px;
+  overflow: hidden;
+}
+
+.footer__secondfloor_header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.footer__secondfloor_textblock p {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 200;
+  color: black;
+}
+
+.footer__secondfloor_box {
+  height: 640px;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__secondfloor_leftline {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.footer__secondfloor_rightline {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.footer__secondfloor_map {
+  padding-top: 20px;
+}
+
+.footer__secondfloor_rightline_block {
+  padding-top: 30px;
+}
+
+.footer__thirdfloor_copyright {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__thirdfloor_copyright_1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.footer__thirdfloor_copyright_1 p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.footer__thirdfloor_copyright_2 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.footer__thirdfloor_copyright_2 .footer__thirdfloor_copyright_2_text {
+  width: 50%;
+}
+.footer__thirdfloor_copyright_2 .footer__thirdfloor_copyright_2_text p {
+  font-size: 18px;
+  font-weight: 100;
+}/*# sourceMappingURL=06footer.css.map */
